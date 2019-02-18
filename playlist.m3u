@@ -1,6 +1,8 @@
 #EXTM3U
+#EXTINF:-1,Первый
+http://194.28.28.20:5000/Apple/Первый/.m3u8
 #EXTINF:-1,Первый HD
-http://93.91.113.8:9999/play/a0ag/index.m3u8
+http://37.29.108.2/adlive/211/playlist.m3u8
 #EXTINF:-1,Россия 1 HD
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_hd/playlist_4.m3u8
 #EXTINF:-1,НТВ HD
@@ -9,17 +11,33 @@ http://91.231.219.145:80/tv_ntv_HD/playlist.m3u8
 http://ott-cdn.ucom.am/s85/04.m3u8
 #EXTINF:0,ТВ3
 http://176.101.224.21:8080/udp/239.195.32.15:1234
-#EXTINF:0,Домашний
-http://ott-cdn.ucom.am/s88/index.m3u8
+#EXTINF:-1,Домашний
+http://109.70.184.20:8080/udp/239.195.32.10:1234
 #EXTINF:0,Пятница!
 http://176.101.224.21:8080/udp/239.195.32.32:1234
+#EXTINF:-1,Пятница
+http://109.70.184.20:8080/udp/239.195.32.32:1234
 #EXTINF:0,Карусель
 http://176.101.224.21:8080/udp/239.195.32.20:1234
+#EXTINF:-1,Карусель
+http://109.70.184.20:8080/udp/239.195.32.20:1234
 #EXTINF:-1,СТС
 http://93.91.113.8:9999/play/a068/index.m3u8
-#EXTINF:1,ТНТ HD
-http://185.231.160.49/116/1/index.m3u8
+#EXTINF:-1,СТС
+http://109.70.184.20:8080/udp/239.195.32.8:1234
+#EXTINF:1,ТНТ
+http://185.231.160.49/18/2/index.m3u8
+#EXTINF:1,ТНТ
+http://185.231.160.49/82/2/index.m3u8
+#EXTINF:-1,ТНТ
+http://cdn-01.bonus-tv.ru/tnt_stream/tracks-v1a1/index.m3u8
+#EXTINF:-1,ТНТ
+http://cdn-01.bonus-tv.ru/tnt_stream/tracks-v2a1/index.m3u8
 #EXTINF:-1,Discovery HD
 http://178.219.160.167:8080/Discovery_HD/index.m3u8
-http://217.21.34.158:30000/NationalGeographicHD/index.m3u8
 #EXTINF:-1,National Geographic HD
+http://217.21.34.158:30000/NationalGeographicHD/index.m3u8
+#EXTINF:-1,Муз ТВ
+http://ott-cdn.ucom.am/s28/04.m3u8
+#EXTINF:-1,Муз ТВ
+http://109.70.184.20:8080/udp/239.195.32.54:1234
