@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1,Первый
-http://194.28.28.20:5000/Apple/Первый/.m3u8
 #EXTINF:-1,Первый HD
 http://37.29.108.2/adlive/211/playlist.m3u8
 #EXTINF:-1,Россия 1 HD
@@ -13,6 +11,14 @@ http://ott-cdn.ucom.am/s85/04.m3u8
 http://176.101.224.21:8080/udp/239.195.32.15:1234
 #EXTINF:-1,Домашний
 http://109.70.184.20:8080/udp/239.195.32.10:1234
+#EXTINF:-1,СТС
+http://93.91.113.8:9999/play/a068/index.m3u8
+#EXTINF:-1,СТС
+http://194.28.28.20:5000/Apple/СТС/.m3u8
+#EXTINF:-1,СТС
+http://iptv.ktkru.ru:8013/index.m3u8
+#EXTINF:-1,СТС
+http://51.15.82.174:8081/tv/sts/chunks.m3u8
 #EXTINF:0,Пятница!
 http://176.101.224.21:8080/udp/239.195.32.32:1234
 #EXTINF:-1,Пятница
@@ -22,22 +28,52 @@ http://176.101.224.21:8080/udp/239.195.32.20:1234
 #EXTINF:-1,Карусель
 http://109.70.184.20:8080/udp/239.195.32.20:1234
 #EXTINF:-1,СТС
-http://93.91.113.8:9999/play/a068/index.m3u8
-#EXTINF:-1,СТС
 http://109.70.184.20:8080/udp/239.195.32.8:1234
-#EXTINF:1,ТНТ
-http://185.231.160.49/18/2/index.m3u8
-#EXTINF:1,ТНТ
-http://185.231.160.49/82/2/index.m3u8
 #EXTINF:-1,ТНТ
 http://cdn-01.bonus-tv.ru/tnt_stream/tracks-v1a1/index.m3u8
 #EXTINF:-1,ТНТ
 http://cdn-01.bonus-tv.ru/tnt_stream/tracks-v2a1/index.m3u8
-#EXTINF:-1,Discovery HD
-http://178.219.160.167:8080/Discovery_HD/index.m3u8
-#EXTINF:-1,National Geographic HD
-http://217.21.34.158:30000/NationalGeographicHD/index.m3u8
 #EXTINF:-1,Муз ТВ
 http://ott-cdn.ucom.am/s28/04.m3u8
 #EXTINF:-1,Муз ТВ
 http://109.70.184.20:8080/udp/239.195.32.54:1234
+#EXTINF:0 tvg-name="Первый_канал", Первый канал 
+udp://@239.1.8.1:1234 
+#EXTINF:0 tvg-name="Россия_1", Россия 1 
+udp://@239.1.8.2:1234 
+#EXTINF:0 tvg-name="Матч_ТВ", МАТЧ! ТВ 
+udp://@239.1.8.4:1234 
+#EXTINF:0 tvg-name="НТВ", НТВ 
+udp://@239.1.8.7:1234 
+#EXTINF:0 tvg-name="5_Канал", 5 Канал 
+udp://@239.1.8.8:1234 
+#EXTINF:0 tvg-name="Россия_Культура", Россия К 
+udp://@239.1.8.6:1234 
+#EXTINF:0 tvg-name="Россия_24", Россия 24 
+udp://@239.1.8.5:1234 
+#EXTINF:0 tvg-name="Карусель", Карусель 
+udp://@239.1.8.3:1234 
+#EXTINF:0 tvg-logo="OPT" tvg-name="ОТР", ОТР 
+udp://@239.1.8.18:1234 
+#EXTINF:0 tvg-name="ТВЦ", ТВ Центр 
+udp://@239.1.9.8:1234 
+#EXTINF:0 tvg-logo="rentv" tvg-name="РЕН_ТВ", РЕН ТВ 
+udp://@239.1.9.4:1234 
+#EXTINF:0 tvg-name="Спас", Спас 
+udp://@239.1.8.27:1234 
+#EXTINF:0 tvg-name="СТС", СТС 
+udp://@239.1.9.2:1234 
+#EXTINF:0 tvg-name="Домашний", Домашний 
+udp://@239.1.9.1:1234 
+#EXTINF:0 tvg-logo="TV3" tvg-name="ТВ-3", ТВ3 
+udp://@239.1.10.2:1234 
+#EXTINF:0 tvg-logo="friday" tvg-name="Пятница", Пятница 
+udp://@239.1.10.11:1234 
+#EXTINF:0 tvg-name="Звезда", Звезда 
+udp://@239.1.9.17:1234 
+#EXTINF:0 tvg-logo="Мир" tvg-name="Мир", Мир 
+udp://@239.1.8.24:1234 
+#EXTINF:0 tvg-name="ТНТ", ТНТ 
+udp://@239.1.9.3:1234 
+#EXTINF:0 tvg-logo="Muz TV" tvg-name="МУЗ-ТВ", МУЗ 
+udp://@239.1.10.30:1234 
